@@ -1,0 +1,10 @@
+re
+string
+numpy
+nltk
+keras
+sklearn
+tensorflow
+tensorflow_datasets==4.0.1
+transformers
+tensorflowjs
