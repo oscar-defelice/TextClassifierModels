@@ -1,10 +1,12 @@
-re
-string
-numpy
-nltk
 keras
+nltk
+numpy
+pandas
+re
 sklearn
+string
 tensorflow
 tensorflow_datasets==4.0.1
-transformers
 tensorflowjs
+transformers
+yaml
