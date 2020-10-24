@@ -9,4 +9,4 @@ tensorflow
 tensorflow_datasets==4.0.1
 tensorflowjs
 transformers
-yaml
+pyyaml
