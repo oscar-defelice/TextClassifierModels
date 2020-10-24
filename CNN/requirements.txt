@@ -5,7 +5,7 @@ pandas
 regex
 sklearn
 tensorflow
-tensorflow_datasets==4.0.1
+tensorflow-datasets==4.0.1
 tensorflowjs
 transformers
 pyyaml
