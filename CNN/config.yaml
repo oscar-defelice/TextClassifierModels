@@ -1,0 +1,38 @@
+app: cnn-model
+task: text-clf
+output:
+  path: ./models/
+
+dataset:
+  plugin: text
+  file:
+    path: dataset.csv
+
+input_features:
+  text: Text
+  labels: ClassIndex
+
+trn_val_splits:
+  # Split based on a column's values: specify only the column containing a
+  # the string "validation" for validation examples.
+  # { type: fixed, value: "dataset"}
+
+  # Random split
+  { type: random, value: 0.2 }
+
+module:
+  embedding_dim: 64
+  dropout_rate: 0.3
+
+tokeniser:
+  tokeniser: keras
+  max_seq_length: 75
+  pad: true
+
+training:
+  batch_size: 16
+  epochs: 5
+  lr: 1.6e-04
+
+# Important for reproducibility
+random_state: 42

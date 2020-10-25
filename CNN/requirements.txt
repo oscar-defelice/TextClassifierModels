@@ -1,0 +1,11 @@
+keras
+nltk
+numpy
+pandas
+regex
+sklearn
+tensorflow
+tensorflow-datasets==4.0.1
+tensorflowjs
+transformers
+pyyaml
