@@ -16,6 +16,7 @@ Models are quite heavy and memory consuming, so it is really advised to use a GP
     <th>Demo</th>
     <th>Details</th>
     <th>CLI</th>
+    <th>Accuracy score on AG news dataset</th>
   </tr>
       <!-- -->
       <!-- ** CNN TextClassifier -->
@@ -29,6 +30,7 @@ Models are quite heavy and memory consuming, so it is really advised to use a GP
         <td rowspan="3">Classify texts with labels from the <a href="http://groups.di.unipi.it/~gulli/AG_corpus_of_news_articles.html">AG news database</a> making use of a convolutional neural network.</td>
         <!-- Command Line key -->
         <td rowspan="3"><code>python3 -m train -c config.yaml</code></td>
+        <td rowspan="3"> 90.7 </td>
       </tr>
       <tr>
         <!-- ** WebApp Link -->
