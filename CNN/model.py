@@ -30,9 +30,6 @@ import tensorflow as tf
 import tensorflow_datasets as tfds
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Activation, Conv1D, Dense, Dropout, Embedding, GlobalMaxPool1D, MaxPool1D
-from keras.utils import to_categorical
-from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
 
 # default values
 optimizer = tf.keras.optimizers.Adam()
