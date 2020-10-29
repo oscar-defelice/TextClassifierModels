@@ -34,7 +34,7 @@ Models are quite heavy and memory consuming, so it is really advised to use a GP
       </tr>
       <tr>
         <!-- ** WebApp Link -->
-        <td><a href="https://github.com/oscar-defelice/TextClassifierModels/tree/main/CNN">webApp</a></td>
+        <td><a href="https://oscar-defelice.github.io/txt-clf-api.github.io/">webApp</a></td>
         <tr>
           <!-- ** Link to source code -->
           <td><a href="https://github.com/oscar-defelice/TextClassifierModels/tree/main/CNN">source</a></td>
