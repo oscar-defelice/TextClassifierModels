@@ -19,6 +19,7 @@ Models are quite heavy and memory consuming, so it is really advised to use a GP
     <th>Accuracy score on AG news dataset</th>
   </tr>
       <!-- -->
+      <!-- -->
       <!-- ** CNN TextClassifier -->
       <tr>
       <!-- Model -->
@@ -38,6 +39,7 @@ Models are quite heavy and memory consuming, so it is really advised to use a GP
         <tr>
           <!-- ** Link to source code -->
           <td><a href="https://github.com/oscar-defelice/TextClassifierModels/tree/main/CNN">source</a></td>
+          <!-- -->
           <!-- ** BERT TextClassifier -->
           <tr>
           <!-- Model -->
